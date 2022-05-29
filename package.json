@@ -1,0 +1,39 @@
+{
+  "name": "@shivamchamoli1997/npm-package-manager",
+  "version": "1.0.5",
+  "private": false,
+  "description": "Track all the packages being used within your project and notify user about the outdated packages via email.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamchamoli09/npm-package-manager.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "package",
+    "manager",
+    "outdated",
+    "updated",
+    "versioning"
+  ],
+  "author": "Shivam Chamoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shivamchamoli09/npm-package-manager/issues"
+  },
+  "homepage": "https://github.com/shivamchamoli09/npm-package-manager#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "nodemailer": "^6.7.2"
+  }
+}
